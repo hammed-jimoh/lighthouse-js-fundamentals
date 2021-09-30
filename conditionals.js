@@ -12,7 +12,6 @@ if (cold) {
 console.log("Now you're ready to go outside!\n");
 
 
-
 // second instruction to run
 
 const temperature = 18;
@@ -25,5 +24,28 @@ if (temperature < 0) {
   console.log("Short sleeves are fine.");
 }
 
-console.log("Now you're ready to go outside!");
+console.log("Now you're ready to go outside!\n");
+
+
+
+
+// Examples for Logical operators - (&& AND), (|| OR), (! NOT)
+
+const isCitizen = true;
+const age = 26;
+
+// for AND operator
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+
+// for OR operator
+if (temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside isn't such a great idea…");
+}
+
+//for NOT operator
+if (!raining) {
+  console.log("Leave your umbrella at home!\n");
+}
 
