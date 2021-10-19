@@ -11,8 +11,10 @@ function calculateCircleArea(radius){
   if (radius < 0) {
     return undefined;
   }
-  const calculateCircleArea = (Math.PI * Math.pow(radius, 2));
-  return calculateCircleArea.toFixed(3);
+  let calculateCircleArea = (Math.PI * Math.pow(radius, 2));
+  calculateCircleArea.toFixed(3);
+  calculateCircleArea = Number (calculateCircleArea);
+  return calculateCircleArea;
 }
 console.log(calculateCircleArea(3.5));
 
