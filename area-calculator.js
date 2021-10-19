@@ -12,7 +12,7 @@ function calculateCircleArea(radius){
     return undefined;
   }
   let calculateCircleArea = (Math.PI * Math.pow(radius, 2));
-  calculateCircleArea.toFixed(3);
+  calculateCircleArea = calculateCircleArea.toFixed(3);
   calculateCircleArea = Number (calculateCircleArea);
   return calculateCircleArea;
 }
