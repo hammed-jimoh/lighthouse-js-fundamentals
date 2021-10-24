@@ -1,12 +1,12 @@
 const range = (start, end, step) => {
-  let newArray = []
+  let newArray = [];
   for (let i = start; i <= end; i += step) {
     if (start === undefined || end === undefined || step === undefined || start > end || step <= 0) {
-      newArray = []
+      newArray = [];
     }
-    newArray.push(i)
+    newArray.push(i);
   }
-  return newArray
+  return newArray;
 }
 console.log(range(0, 10, 2));
 console.log(range(10, 30, 5));
