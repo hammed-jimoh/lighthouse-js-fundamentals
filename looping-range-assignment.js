@@ -2,7 +2,7 @@ const range = (start, end, step) => {
   let newArray = [];
   for (let i = start; i <= end; i += step) {
     if (start === undefined || end === undefined || step === undefined || start > end || step <= 0) {
-      newArray = [];
+      return [];
     }
     newArray.push(i);
   }
